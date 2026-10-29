@@ -1,0 +1,1 @@
+{"name":"runbooklatch-genlayer","version":"1.0.0","private":true,"type":"module","scripts":{"read":"node scripts/read-live.mjs"},"dependencies":{"genlayer-js":"1.1.8","viem":"2.57.8"}}

@@ -1,0 +1,26 @@
+{
+  "address": "0x32A89A221DdF9A94cA16F5251340bdEcbD4A2115",
+  "sourceSha256": "a240d6cd2118e8a80149f7b01d811abc1f78699d2a49743ccb96f07056fba39e",
+  "network": {
+    "chainId": 61999,
+    "rpc": "https://studio.genlayer.com/api"
+  },
+  "reason": "Free-form quotation output failed exact source grounding; final compile transaction UNDETERMINED. No acknowledgements were sent. This instance is not the canonical deployment.",
+  "transactions": {
+    "deploy": {
+      "hash": "0x4fb3c5007656b1cc2e6d26ddc7f2d56f0370bcf5d120e50f9063d8e8400bb683",
+      "status": "FINALIZED",
+      "result": "MAJORITY_AGREE"
+    },
+    "open": {
+      "hash": "0x04e0ead607838a332f4f541faffdfe03b1f2c1b8134b22070b9e9f0590234a04",
+      "status": "FINALIZED",
+      "result": "MAJORITY_AGREE"
+    },
+    "compile": {
+      "hash": "0x14bc837399028f21236cfa78a28bb637f1dc48d89fbc2e9010cbc77251c90412",
+      "status": "UNDETERMINED",
+      "result": "MAJORITY_DISAGREE"
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "ctor": {
+    "params": [],
+    "kwparams": {}
+  },
+  "methods": {
+    "acknowledge": {
+      "params": [
+        [
+          "owner",
+          "string"
+        ],
+        [
+          "run_id",
+          "string"
+        ],
+        [
+          "step_id",
+          "string"
+        ],
+        [
+          "graph_digest",
+          "string"
+        ],
+        [
+          "note",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "string",
+      "payable": false
+    },
+    "compile_run": {
+      "params": [
+        [
+          "owner",
+          "string"
+        ],
+        [
+          "run_id",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "string",
+      "payable": false
+    },
+    "get_protocol": {
+      "params": [],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "string"
+    },
+    "get_run": {
+      "params": [
+        [
+          "owner",
+          "string"
+        ],
+        [
+          "run_id",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "string"
+    },
+    "open_run": {
+      "params": [
+        [
+          "run_id",
+          "string"
+        ],
+        [
+          "plan_json",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "string",
+      "payable": false
+    }
+  }
+}
